@@ -23,12 +23,13 @@ Summary(zh_CN):	Archive::Tar 对 .tar 文件进行 Perl 操作的模块。
 Summary(zh_TW):	Archive::Tar ノ Perl 矪瞶 .tar 郎家舱
 Name:		perl-Archive-Tar
 Version:	1.08
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f75d773ceaa2f3f61e2525e8bd0a6fc2
+Patch0:		%{name}-list_archive_vs_new.patch
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.82
 BuildRequires:	perl-IO-Zlib
@@ -151,6 +152,7 @@ Compress::Zlib 模块，Archive::Tar 还会支持压
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
