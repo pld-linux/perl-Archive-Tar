@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Archive
-%define	pnam	Tar
+%define		pdir	Archive
+%define		pnam	Tar
 Summary:	Archive::Tar - a module for Perl manipulation of .tar files
 Summary(cs):	Archive::Tar - modul pro zpracování souborù .tar v Perlu
 Summary(da):	Archive::Tar - et modul for Perlhåndtering af .tar-filer
@@ -99,8 +99,8 @@ Compress::Zlib è installato, Archive::Tar supporterà anche i file tar
 compressi o gzippati.
 
 %description -l ko
-ÀÌ ¸ğµâÀº tar ¾ÆÄ«ÀÌºê ÆÄÀÏÀ» Ã³¸®ÇÏ´Âµ¥ »ç¿ëµË´Ï´Ù.  Archive::Tar´Â
-tar ÆÄÀÏ Ã³¸®¿¡ »ç¿ëµÇ´Â °´Ã¼ ÁöÇâÀû ¸ŞÄ¿´ÏÁòÀ» Á¦°øÇÕ´Ï´Ù.  ÀÌ ¸ğµâÀº
+ÀÌ ¸ğµâÀº tar ¾ÆÄ«ÀÌºê ÆÄÀÏÀ» Ã³¸®ÇÏ´Âµ¥ »ç¿ëµË´Ï´Ù. Archive::Tar´Â
+tar ÆÄÀÏ Ã³¸®¿¡ »ç¿ëµÇ´Â °´Ã¼ ÁöÇâÀû ¸ŞÄ¿´ÏÁòÀ» Á¦°øÇÕ´Ï´Ù. ÀÌ ¸ğµâÀº
 ºü¸£°í ½¬¿î ÆÄÀÏ Ã³¸®¸¦ À§ÇÑ Å¬·¡½º ¹æ½ÄÀ» Á¦°øÇÒ »Ó¸¸ ¾Æ´Ï¶ó ¶ÇÇÑ
 »ç¿ëÀÚ ¼³Á¤ Á¶ÀÛÀÌ °¡´ÉÇÑ tar ÆÄÀÏ °´Ã¼µµ »ı¼º °¡´ÉÇÕ´Ï´Ù.
 Compress::Zlib ¸ğµâÀ» ¼³Ä¡ÇÏ¼Ì´Ù¸é, Archive::Tar´Â ¾ĞÃà tar ÆÄÀÏÀÌ³ª
@@ -137,7 +137,7 @@ Detta är en modul för hanteringen av tar-arkiv. Archive::Tar
 tillhandahåller en objektorienterad mekanism för att hantera
 tar-filer. Den tillhandahåller klassmetoder för snabb och enkel
 filhantering samtidigt som den möjliggör skapandet av tar-filobjekt
-för specialhantering.  Om du har modulen Compress::Zlib installerad,
+för specialhantering. Om du har modulen Compress::Zlib installerad,
 kommer Archive::Tar också att stödja komprimerade eller gzip:ade
 tar-filer.
 
