@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Archive
-%define		pnam	Tar
+%define	pdir	Archive
+%define	pnam	Tar
 Summary:	Archive::Tar - a module for Perl manipulation of .tar files
 Summary(cs):	Archive::Tar - modul pro zpracování souborù .tar v Perlu
 Summary(da):	Archive::Tar - et modul for Perlhåndtering af .tar-filer
