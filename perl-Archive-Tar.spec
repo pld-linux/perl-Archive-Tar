@@ -3,7 +3,7 @@ Summary:	Archive-Tar perl module
 Summary(pl):	Modu³ perla Archive-Tar
 Name:		perl-Archive-Tar
 Version:	0.07
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
