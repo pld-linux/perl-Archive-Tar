@@ -39,7 +39,7 @@ Archive::Tar - modu³ do manipulacji archiwami tar.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
