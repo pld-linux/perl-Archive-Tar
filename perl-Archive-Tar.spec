@@ -2,15 +2,15 @@
 Summary:	Archive-Tar perl module
 Summary(pl):	Modu³ perla Archive-Tar
 Name:		perl-Archive-Tar
-Version:	0.07
+Version:	0.22
 Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Archive/Tar-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Archive/Archive-Tar-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl-devel >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -20,7 +20,7 @@ Archive-Tar - module for manipulation of tar archives.
 Archive-Tar - modu³ do manipulacji archiwami tar.
 
 %prep
-%setup -q -n Tar-%{version}
+%setup -q -n Archive-Tar-%{version}
 
 %build
 perl Makefile.PL
