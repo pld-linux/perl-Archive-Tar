@@ -18,12 +18,12 @@ Summary(tr):	Archive::Tar - .tar dosyalarý için bir Perl modülü
 Summary(zh_CN):	Archive::Tar ¶Ô .tar ÎÄ¼þ½øÐÐ Perl ²Ù×÷µÄÄ£¿é¡£
 Summary(zh_TW):	Archive::Tar ¥Î©ó Perl ³B²z .tar ÀÉ®×ªº¤@­Ó¼Ò²Õ¡C
 Name:		perl-Archive-Tar
-Version:	0.22
-Release:	6
+Version:	1.04
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d77f1de1241c4eb7879916a853910285
+# Source0-md5:	4a608141b674f2c854581157ad50be8a
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
@@ -150,16 +150,15 @@ Compress::Zlib Ä£¿é£¬Archive::Tar »¹»áÖ§³ÖÑ¹
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-
-install ptar $RPM_BUILD_ROOT%{_bindir}
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README TODO
-%attr(755,root,root) %{_bindir}/ptar
+%doc README
 %{perl_vendorlib}/Archive/Tar.pm
+%{perl_vendorlib}/Archive/Tar
 %{_mandir}/man3/*
