@@ -1,7 +1,7 @@
-
+#
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Archive
 %define		pnam	Tar
@@ -173,6 +173,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
+%attr(755,root,root) %{_bindir}/ptar
 %{perl_vendorlib}/Archive/Tar.pm
 %{perl_vendorlib}/Archive/Tar
 %{_mandir}/man3/*
