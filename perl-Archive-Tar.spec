@@ -1,3 +1,7 @@
+
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Archive
 %define		pnam	Tar
@@ -18,14 +22,17 @@ Summary(tr):	Archive::Tar - .tar dosyalarý için bir Perl modülü
 Summary(zh_CN):	Archive::Tar ¶Ô .tar ÎÄ¼þ½øÐÐ Perl ²Ù×÷µÄÄ£¿é¡£
 Summary(zh_TW):	Archive::Tar ¥Î©ó Perl ³B²z .tar ÀÉ®×ªº¤@­Ó¼Ò²Õ¡C
 Name:		perl-Archive-Tar
-Version:	1.05
+Version:	1.07
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	27e5132b087731ee96b008c4ef5a207c
+# Source0-md5:	1fa34d7dc4ee663007043717254e0671
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
+%if %{with tests}
+BuildRequires:	perl-IO-Zlib
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -145,6 +152,7 @@ Compress::Zlib Ä£¿é£¬Archive::Tar »¹»áÖ§³ÖÑ¹
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+%{?with_tests: %{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
