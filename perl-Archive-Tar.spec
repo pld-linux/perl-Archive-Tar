@@ -25,7 +25,7 @@ Archive-Tar - modu³ do manipulacji archiwami tar.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
