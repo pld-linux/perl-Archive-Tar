@@ -24,7 +24,8 @@ Summary(zh_TW):	Archive::Tar 用於 Perl 處理 .tar 檔案的一個模組。
 Name:		perl-Archive-Tar
 Version:	1.08
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f75d773ceaa2f3f61e2525e8bd0a6fc2
