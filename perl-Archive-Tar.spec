@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Archive
 %define	pnam	Tar
-Summary:	Archive-Tar perl module
-Summary(pl):	Modu³ perla Archive-Tar
+Summary:	Archive::Tar perl module
+Summary(pl):	Modu³ perla Archive::Tar
 Name:		perl-Archive-Tar
 Version:	0.22
 Release:	4
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Archive-Tar - module for manipulation of tar archives.
+Archive::Tar - module for manipulation of tar archives.
 
 %description -l pl
-Archive-Tar - modu³ do manipulacji archiwami tar.
+Archive::Tar - modu³ do manipulacji archiwami tar.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
