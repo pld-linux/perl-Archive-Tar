@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Archive
 %define	pnam	Tar
-%include	/usr/lib/rpm/macros.perl
 Summary:	Archive-Tar perl module
 Summary(pl):	Modu³ perla Archive-Tar
 Name:		perl-Archive-Tar
 Version:	0.22
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Archive-Tar - module for manipulation of tar archives.
 Archive-Tar - modu³ do manipulacji archiwami tar.
 
 %prep
-%setup -q -n Archive-Tar-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
