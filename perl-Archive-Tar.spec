@@ -91,7 +91,7 @@ compressi o gzippati.
 이 모듈은 tar 아카이브 파일을 처리하는데 사용됩니다.  Archive::Tar는
 tar 파일 처리에 사용되는 객체 지향적 메커니즘을 제공합니다.  이 모듈은
 빠르고 쉬운 파일 처리를 위한 클래스 방식을 제공할 뿐만 아니라 또한
-사용자 설정 조작이 가능한 tar 파일 객체도 생성 가능합니다. 
+사용자 설정 조작이 가능한 tar 파일 객체도 생성 가능합니다.
 Compress::Zlib 모듈을 설치하셨다면, Archive::Tar는 압축 tar 파일이나
 gzip 압축된 tar 파일도 지원합니다.
 
@@ -143,7 +143,7 @@ Compress::Zlib 친욥，Archive::Tar 뻘삔連넣箕
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
