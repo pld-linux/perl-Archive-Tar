@@ -1,0 +1,16 @@
+--- Archive-Tar-1.08/lib/Archive/Tar.pm~	2004-04-26 15:15:49.041516984 +0200
++++ Archive-Tar-1.08/lib/Archive/Tar.pm	2004-04-26 15:16:22.226472104 +0200
+@@ -85,10 +85,12 @@
+ }
+ 
+ sub new {
++    my $class = shift;
++    $class = ref $class if ref $class;
+ 
+     ### copying $tmpl here since a shallow copy makes it use the
+     ### same aref, causing for files to remain in memory always.
+-    my $obj = bless { _data => [ ], _file => 'Unknown' }, shift;
++    my $obj = bless { _data => [ ], _file => 'Unknown' }, $class;
+ 
+     $obj->read( @_ ) if @_;
+     
