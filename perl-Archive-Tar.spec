@@ -28,11 +28,14 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1fa34d7dc4ee663007043717254e0671
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 5.6
 %if %{with tests}
+BuildRequires:	perl(File::Spec) >= 0.82
 BuildRequires:	perl-IO-Zlib
+BuildRequires:	perl-Test-Harness >= 2.26
+BuildRequires:	perl-Test-Simple
 %endif
+BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
