@@ -22,22 +22,24 @@ Summary(tr):	Archive::Tar - .tar dosyalarý için bir Perl modülü
 Summary(zh_CN):	Archive::Tar ¶Ô .tar ÎÄ¼þ½øÐÐ Perl ²Ù×÷µÄÄ£¿é¡£
 Summary(zh_TW):	Archive::Tar ¥Î©ó Perl ³B²z .tar ÀÉ®×ªº¤@­Ó¼Ò²Õ¡C
 Name:		perl-Archive-Tar
-Version:	1.24
-Release:	2
+Version:	1.26
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	25397b47793b4271a956071f99f5dc8b
+# Source0-md5:	f649c69d89fdc56b2c5985a672cd941a
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.82
 BuildRequires:	perl-IO-Zlib
 BuildRequires:	perl-Test-Harness >= 2.26
+BuildRequires:	perl-Test-Pod
 BuildRequires:	perl-Test-Simple
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-IO-Zlib
+Requires:	perl-Text-Diff
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -171,8 +173,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
-%attr(755,root,root) %{_bindir}/ptar
+%doc CHANGES README
+%attr(755,root,root) %{_bindir}/ptar*
 %{perl_vendorlib}/Archive/Tar.pm
 %{perl_vendorlib}/Archive/Tar
 %{_mandir}/man3/*
