@@ -177,4 +177,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/ptar*
 %{perl_vendorlib}/Archive/Tar.pm
 %{perl_vendorlib}/Archive/Tar
+%{_mandir}/man1/ptar*
 %{_mandir}/man3/*
