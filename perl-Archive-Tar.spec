@@ -23,7 +23,7 @@ Summary(zh_CN):	Archive::Tar 对 .tar 文件进行 Perl 操作的模块。
 Summary(zh_TW):	Archive::Tar ノ Perl 矪瞶 .tar 郎家舱
 Name:		perl-Archive-Tar
 Version:	1.29
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
