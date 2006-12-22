@@ -22,23 +22,24 @@ Summary(tr):	Archive::Tar - .tar dosyalarý için bir Perl modülü
 Summary(zh_CN):	Archive::Tar ¶Ô .tar ÎÄ¼þ½øÐÐ Perl ²Ù×÷µÄÄ£¿é¡£
 Summary(zh_TW):	Archive::Tar ¥Î©ó Perl ³B²z .tar ÀÉ®×ªº¤@­Ó¼Ò²Õ¡C
 Name:		perl-Archive-Tar
-Version:	1.29
+Version:	1.30
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a4c09ec0d0ada293150a3c0a5db07ee9
+Source0:	http://www.cpan.org/modules/by-module/Archive/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	89604ea8fadc990c7bb668259dacb439
+URL:		http://search.cpan.org/dist/Archive-Tar/
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.82
-BuildRequires:	perl-IO-Zlib
+BuildRequires:	perl-IO-Zlib >= 1.01
 BuildRequires:	perl-Test-Harness >= 2.26
 BuildRequires:	perl-Test-Pod
 BuildRequires:	perl-Test-Simple
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl-IO-Zlib
+Requires:	perl-IO-Zlib >= 1.01
 Requires:	perl-Text-Diff
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
