@@ -6,21 +6,21 @@
 %define		pdir	Archive
 %define		pnam	Tar
 Summary:	Archive::Tar - a module for Perl manipulation of .tar files
-Summary(cs):	Archive::Tar - modul pro zpracování souborù .tar v Perlu
-Summary(da):	Archive::Tar - et modul for Perlhåndtering af .tar-filer
-Summary(de):	Archive::Tar - ein Modul für das Bearbeiten von .tar-Dateien durch Perl
-Summary(es):	Archive::Tar - módulo para manipulaciones de Perl de los ficheros tar
-Summary(fr):	Archive::Tar - module pour la manipulation Perl des fichiers .tar
-Summary(it):	Archive::Tar - modulo per la gestione dei file .tar con Perl
-Summary(ja):	Archive::Tar tar¥Õ¥¡¥¤¥ë¤ÎPerlÁàºî¤Î°Ù¤Î¥â¥¸¥å¡¼¥ë¤Ç¤¹¡£
-Summary(ko):	Archive::Tar .tar ÆÄÀÏÀ» Á¶ÀÛÇÏ´Â Perl ¸ğµâ
-Summary(pl):	Archive::Tar - modu³ Perla do manipulacji plikami .tar
-Summary(pt):	Archive::Tar - um módulo para a manipulação em Perl dos ficheiros .tar
-Summary(pt_BR):	Archive::Tar - um módulo para a manipulação em Perl dos ficheiros .tar
-Summary(sv):	Archive::Tar - en modul för Perlhantering av .tar-filer
-Summary(tr):	Archive::Tar - .tar dosyaları için bir Perl modülü
-Summary(zh_CN):	Archive::Tar ¶Ô .tar ÎÄ¼ş½øĞĞ Perl ²Ù×÷µÄÄ£¿é¡£
-Summary(zh_TW):	Archive::Tar ¥Î©ó Perl ³B²z .tar ÀÉ®×ªº¤@­Ó¼Ò²Õ¡C
+Summary(cs.UTF-8):   Archive::Tar - modul pro zpracovÃ¡nÃ­ souborÅ¯ .tar v Perlu
+Summary(da.UTF-8):   Archive::Tar - et modul for PerlhÃ¥ndtering af .tar-filer
+Summary(de.UTF-8):   Archive::Tar - ein Modul fÃ¼r das Bearbeiten von .tar-Dateien durch Perl
+Summary(es.UTF-8):   Archive::Tar - mÃ³dulo para manipulaciones de Perl de los ficheros tar
+Summary(fr.UTF-8):   Archive::Tar - module pour la manipulation Perl des fichiers .tar
+Summary(it.UTF-8):   Archive::Tar - modulo per la gestione dei file .tar con Perl
+Summary(ja.UTF-8):   Archive::Tar tarãƒ•ã‚¡ã‚¤ãƒ«ã®Perlæ“ä½œã®ç‚ºã®ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã§ã™ã€‚
+Summary(ko.UTF-8):   Archive::Tar .tar íŒŒì¼ì„ ì¡°ì‘í•˜ëŠ” Perl ëª¨ë“ˆ
+Summary(pl.UTF-8):   Archive::Tar - moduÅ‚ Perla do manipulacji plikami .tar
+Summary(pt.UTF-8):   Archive::Tar - um mÃ³dulo para a manipulaÃ§Ã£o em Perl dos ficheiros .tar
+Summary(pt_BR.UTF-8):   Archive::Tar - um mÃ³dulo para a manipulaÃ§Ã£o em Perl dos ficheiros .tar
+Summary(sv.UTF-8):   Archive::Tar - en modul fÃ¶r Perlhantering av .tar-filer
+Summary(tr.UTF-8):   Archive::Tar - .tar dosyalarÄ± iÃ§in bir Perl modÃ¼lÃ¼
+Summary(zh_CN.UTF-8):   Archive::Tar å¯¹ .tar æ–‡ä»¶è¿›è¡Œ Perl æ“ä½œçš„æ¨¡å—ã€‚
+Summary(zh_TW.UTF-8):   Archive::Tar ç”¨æ–¼ Perl è™•ç† .tar æª”æ¡ˆçš„ä¸€å€‹æ¨¡çµ„ã€‚
 Name:		perl-Archive-Tar
 Version:	1.30
 Release:	1
@@ -52,106 +52,106 @@ allowing for the creation of tar file objects for custom manipulation.
 If you have the Compress::Zlib module installed, Archive::Tar will
 also support compressed or gzipped tar files.
 
-%description -l cs
-Toto je modul pro zpracování archivù tar. Archive::Tar poskytuje
-objektovì orientovanı mechanismus pro zpracování souborù tar.
-Poskytuje metody tøídy pro rychlé a snadné zpracování souboru a
-umo¾òuje vytvoøení objektù souborù tar pro vlastní zpracování. Máte-li
-nainstalován modul Compress::Zlib, bude Archive::Tar také podporovat
-soubory tar komprimované programem compress nebo gzip.
+%description -l cs.UTF-8
+Toto je modul pro zpracovÃ¡nÃ­ archivÅ¯ tar. Archive::Tar poskytuje
+objektovÄ› orientovanÃ½ mechanismus pro zpracovÃ¡nÃ­ souborÅ¯ tar.
+Poskytuje metody tÅ™Ã­dy pro rychlÃ© a snadnÃ© zpracovÃ¡nÃ­ souboru a
+umoÅ¾Åˆuje vytvoÅ™enÃ­ objektÅ¯ souborÅ¯ tar pro vlastnÃ­ zpracovÃ¡nÃ­. MÃ¡te-li
+nainstalovÃ¡n modul Compress::Zlib, bude Archive::Tar takÃ© podporovat
+soubory tar komprimovanÃ© programem compress nebo gzip.
 
-%description -l da
-Dette er et modul for håndteringen af tar-arkiver. Archive::Tar
-leverer en objektorienteret mekanisme til at håndtere tar-filer. Den
-leverer klassemetoder for hurtig og nem filhåndtering samtidigt med at
-den muliggør oprettelsen af tar-filobjekter for specialhåndtering.
-Hvis du har modulet Compress::Zlib installeret, vil Archive::Tar også
-understøtte komprimerede eller gzip'ede tar-filer.
+%description -l da.UTF-8
+Dette er et modul for hÃ¥ndteringen af tar-arkiver. Archive::Tar
+leverer en objektorienteret mekanisme til at hÃ¥ndtere tar-filer. Den
+leverer klassemetoder for hurtig og nem filhÃ¥ndtering samtidigt med at
+den muliggÃ¸r oprettelsen af tar-filobjekter for specialhÃ¥ndtering.
+Hvis du har modulet Compress::Zlib installeret, vil Archive::Tar ogsÃ¥
+understÃ¸tte komprimerede eller gzip'ede tar-filer.
 
-%description -l de
+%description -l de.UTF-8
 Dieses Modul dient der Bearbeitung von tar-Archiven. Archive::Tar
-bietet einen objektspezifischen Mechanismus für das Bearbeiten von
-solchen Archiven sowie Klassenmethoden für das schnelle und einfache
-Bearbeiten und ermöglicht gleichzeitig das Anlegen von
-tar-Dateiobjekten für das benutzerdefinierte Bearbeiten. Wenn Sie
-bereits das Modul Compress::Zlib installiert haben, unterstützt
+bietet einen objektspezifischen Mechanismus fÃ¼r das Bearbeiten von
+solchen Archiven sowie Klassenmethoden fÃ¼r das schnelle und einfache
+Bearbeiten und ermÃ¶glicht gleichzeitig das Anlegen von
+tar-Dateiobjekten fÃ¼r das benutzerdefinierte Bearbeiten. Wenn Sie
+bereits das Modul Compress::Zlib installiert haben, unterstÃ¼tzt
 Archive::Tar auch komprimierte oder gzipped tar-Dateien.
 
-%description -l es
-Este módulo gestiona los ficheros tar. Archive::Tar proporciona un
+%description -l es.UTF-8
+Este mÃ³dulo gestiona los ficheros tar. Archive::Tar proporciona un
 mecanismo orientado a un objeto para gestionar ficheros tar.
-Proporciona métodos de clase para ficheros rápidos y sencillos
-mientras que permite la creación de objetos de ficheros tar para la
-manipulación personalizada. Si tiene instalado el módulo
-Compress::Zlib, Archive::Tar soportará los ficheros tar comprimidos.
+Proporciona mÃ©todos de clase para ficheros rÃ¡pidos y sencillos
+mientras que permite la creaciÃ³n de objetos de ficheros tar para la
+manipulaciÃ³n personalizada. Si tiene instalado el mÃ³dulo
+Compress::Zlib, Archive::Tar soportarÃ¡ los ficheros tar comprimidos.
 
-%description -l fr
+%description -l fr.UTF-8
 Il s'agit d'un module de gestion des archives tar. Archive::Tar
-fournit un mécanisme orienté sur l'objet pour la gestion des fichiers
-tar. Il offre des méthodes de classe permettant de gérer rapidement et
-facilement les fichiers tout en permettant de créer des objets de
-fichiers tar pour une manipulation personnalisée. Si vous avez
-installé le module Compress::Zlib, Archive::Tar rendra également en
-charge les fichiers tar comprimés ou zippés.
+fournit un mÃ©canisme orientÃ© sur l'objet pour la gestion des fichiers
+tar. Il offre des mÃ©thodes de classe permettant de gÃ©rer rapidement et
+facilement les fichiers tout en permettant de crÃ©er des objets de
+fichiers tar pour une manipulation personnalisÃ©e. Si vous avez
+installÃ© le module Compress::Zlib, Archive::Tar rendra Ã©galement en
+charge les fichiers tar comprimÃ©s ou zippÃ©s.
 
-%description -l it
+%description -l it.UTF-8
 Si tratta di un modulo per la gestione degli archivi tar. Archive::Tar
 offre un meccanismo orientato agli oggetti per gestire i file tar.
 Consente inoltre di gestire rapidamente e facilmente i file e di
 creare gli oggetti dei file tar per la personalizzazione. Se il modulo
-Compress::Zlib è installato, Archive::Tar supporterà anche i file tar
+Compress::Zlib Ã¨ installato, Archive::Tar supporterÃ  anche i file tar
 compressi o gzippati.
 
-%description -l ko
-ÀÌ ¸ğµâÀº tar ¾ÆÄ«ÀÌºê ÆÄÀÏÀ» Ã³¸®ÇÏ´Âµ¥ »ç¿ëµË´Ï´Ù. Archive::Tar´Â
-tar ÆÄÀÏ Ã³¸®¿¡ »ç¿ëµÇ´Â °´Ã¼ ÁöÇâÀû ¸ŞÄ¿´ÏÁòÀ» Á¦°øÇÕ´Ï´Ù. ÀÌ ¸ğµâÀº
-ºü¸£°í ½¬¿î ÆÄÀÏ Ã³¸®¸¦ À§ÇÑ Å¬·¡½º ¹æ½ÄÀ» Á¦°øÇÒ »Ó¸¸ ¾Æ´Ï¶ó ¶ÇÇÑ
-»ç¿ëÀÚ ¼³Á¤ Á¶ÀÛÀÌ °¡´ÉÇÑ tar ÆÄÀÏ °´Ã¼µµ »ı¼º °¡´ÉÇÕ´Ï´Ù.
-Compress::Zlib ¸ğµâÀ» ¼³Ä¡ÇÏ¼Ì´Ù¸é, Archive::Tar´Â ¾ĞÃà tar ÆÄÀÏÀÌ³ª
-gzip ¾ĞÃàµÈ tar ÆÄÀÏµµ Áö¿øÇÕ´Ï´Ù.
+%description -l ko.UTF-8
+ì´ ëª¨ë“ˆì€ tar ì•„ì¹´ì´ë¸Œ íŒŒì¼ì„ ì²˜ë¦¬í•˜ëŠ”ë° ì‚¬ìš©ë©ë‹ˆë‹¤. Archive::TarëŠ”
+tar íŒŒì¼ ì²˜ë¦¬ì— ì‚¬ìš©ë˜ëŠ” ê°ì²´ ì§€í–¥ì  ë©”ì»¤ë‹ˆì¦˜ì„ ì œê³µí•©ë‹ˆë‹¤. ì´ ëª¨ë“ˆì€
+ë¹ ë¥´ê³  ì‰¬ìš´ íŒŒì¼ ì²˜ë¦¬ë¥¼ ìœ„í•œ í´ë˜ìŠ¤ ë°©ì‹ì„ ì œê³µí•  ë¿ë§Œ ì•„ë‹ˆë¼ ë˜í•œ
+ì‚¬ìš©ì ì„¤ì • ì¡°ì‘ì´ ê°€ëŠ¥í•œ tar íŒŒì¼ ê°ì²´ë„ ìƒì„± ê°€ëŠ¥í•©ë‹ˆë‹¤.
+Compress::Zlib ëª¨ë“ˆì„ ì„¤ì¹˜í•˜ì…¨ë‹¤ë©´, Archive::TarëŠ” ì••ì¶• tar íŒŒì¼ì´ë‚˜
+gzip ì••ì¶•ëœ tar íŒŒì¼ë„ ì§€ì›í•©ë‹ˆë‹¤.
 
-%description -l pl
-Ten modu³ obs³uguje archiwa tar. Archive::Tar udostêpnia zorientowany
-obiektowo mechanizm obs³ugi plików tar. Udostêpnia klasê zawieraj±c±
-metody umo¿liwiaj±ce ³atwe pos³ugiwanie sie plikami .tar, a tak¿e
-tworzenie obiektów tar i manipulacjê nimi. Je¶li jest zainstalowany
-modu³ Compress::Zlib, Archive::Tar bêdzie obs³ugiwaæ równie¿ archiwa
+%description -l pl.UTF-8
+Ten moduÅ‚ obsÅ‚uguje archiwa tar. Archive::Tar udostÄ™pnia zorientowany
+obiektowo mechanizm obsÅ‚ugi plikÃ³w tar. UdostÄ™pnia klasÄ™ zawierajÄ…cÄ…
+metody umoÅ¼liwiajÄ…ce Å‚atwe posÅ‚ugiwanie sie plikami .tar, a takÅ¼e
+tworzenie obiektÃ³w tar i manipulacjÄ™ nimi. JeÅ›li jest zainstalowany
+moduÅ‚ Compress::Zlib, Archive::Tar bÄ™dzie obsÅ‚ugiwaÄ‡ rÃ³wnieÅ¼ archiwa
 tar spakowane dodatkowo programem compress lub gzip.
 
-%description -l pt
-Este é um módulo para o tratamento dos pacotes TAR. O Archive::Tar
+%description -l pt.UTF-8
+Este Ã© um mÃ³dulo para o tratamento dos pacotes TAR. O Archive::Tar
 oferece um mecanismo orientado por objectos para lidar com os
-ficheiros TAR. Oferece os métodos das classes para o tratamento rápido
-e simples dos ficheiros enquanto permite também a criação de objectos
-de ficheiros TAR para a manipulação personalizada. Se tiver o módulo
-Compress::Zlib instalado, o Archive::Tar irá também suportar os
+ficheiros TAR. Oferece os mÃ©todos das classes para o tratamento rÃ¡pido
+e simples dos ficheiros enquanto permite tambÃ©m a criaÃ§Ã£o de objectos
+de ficheiros TAR para a manipulaÃ§Ã£o personalizada. Se tiver o mÃ³dulo
+Compress::Zlib instalado, o Archive::Tar irÃ¡ tambÃ©m suportar os
 ficheiros TAR 'gzippados' ou 'compress'ed.
 
-%description -l pt_BR
-Este é um módulo para o tratamento dos pacotes TAR. O Archive::Tar
+%description -l pt_BR.UTF-8
+Este Ã© um mÃ³dulo para o tratamento dos pacotes TAR. O Archive::Tar
 oferece um mecanismo orientado por objectos para lidar com os
-ficheiros TAR. Oferece os métodos das classes para o tratamento rápido
-e simples dos ficheiros enquanto permite também a criação de objectos
-de ficheiros TAR para a manipulação personalizada. Se tiver o módulo
-Compress::Zlib instalado, o Archive::Tar irá também suportar os
+ficheiros TAR. Oferece os mÃ©todos das classes para o tratamento rÃ¡pido
+e simples dos ficheiros enquanto permite tambÃ©m a criaÃ§Ã£o de objectos
+de ficheiros TAR para a manipulaÃ§Ã£o personalizada. Se tiver o mÃ³dulo
+Compress::Zlib instalado, o Archive::Tar irÃ¡ tambÃ©m suportar os
 ficheiros TAR 'gzippados' ou 'compress'ed.
 
-%description -l sv
-Detta är en modul för hanteringen av tar-arkiv. Archive::Tar
-tillhandahåller en objektorienterad mekanism för att hantera
-tar-filer. Den tillhandahåller klassmetoder för snabb och enkel
-filhantering samtidigt som den möjliggör skapandet av tar-filobjekt
-för specialhantering. Om du har modulen Compress::Zlib installerad,
-kommer Archive::Tar också att stödja komprimerade eller gzip:ade
+%description -l sv.UTF-8
+Detta Ã¤r en modul fÃ¶r hanteringen av tar-arkiv. Archive::Tar
+tillhandahÃ¥ller en objektorienterad mekanism fÃ¶r att hantera
+tar-filer. Den tillhandahÃ¥ller klassmetoder fÃ¶r snabb och enkel
+filhantering samtidigt som den mÃ¶jliggÃ¶r skapandet av tar-filobjekt
+fÃ¶r specialhantering. Om du har modulen Compress::Zlib installerad,
+kommer Archive::Tar ocksÃ¥ att stÃ¶dja komprimerade eller gzip:ade
 tar-filer.
 
-%description -l zh_CN
-ÕâÊÇÓÃÀ´´¦Àí tar ¹éµµµÄÄ£¿é¡£Archive::Tar
-Ìá¹©ÁË´¦Àí tar ÎÄ¼şµÄÃæÏò¶ÔÏóµÄ»úÖÆ¡£ËüÌá¹©
-ÁËÀà±ğ·½·¨À´¿ìËÙ¼òÒ×µØ´¦ÀíÎÄ¼ş£¬Ëü»¹ÔÊĞíÎª
-¶¨ÖÆµÄ²Ù×÷¶ø´´½¨ tar ÎÄ¼ş¶ÔÏó¡£Èç¹ûÄú°²×°ÁË
-Compress::Zlib Ä£¿é£¬Archive::Tar »¹»áÖ§³ÖÑ¹
-ËõµÄ»òÓÃ gzip ´¦ÀíµÄ tar ÎÄ¼ş¡£
+%description -l zh_CN.UTF-8
+è¿™æ˜¯ç”¨æ¥å¤„ç† tar å½’æ¡£çš„æ¨¡å—ã€‚Archive::Tar
+æä¾›äº†å¤„ç† tar æ–‡ä»¶çš„é¢å‘å¯¹è±¡çš„æœºåˆ¶ã€‚å®ƒæä¾›
+äº†ç±»åˆ«æ–¹æ³•æ¥å¿«é€Ÿç®€æ˜“åœ°å¤„ç†æ–‡ä»¶ï¼Œå®ƒè¿˜å…è®¸ä¸º
+å®šåˆ¶çš„æ“ä½œè€Œåˆ›å»º tar æ–‡ä»¶å¯¹è±¡ã€‚å¦‚æœæ‚¨å®‰è£…äº†
+Compress::Zlib æ¨¡å—ï¼ŒArchive::Tar è¿˜ä¼šæ”¯æŒå‹
+ç¼©çš„æˆ–ç”¨ gzip å¤„ç†çš„ tar æ–‡ä»¶ã€‚
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
