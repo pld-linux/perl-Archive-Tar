@@ -6,21 +6,21 @@
 %define		pdir	Archive
 %define		pnam	Tar
 Summary:	Archive::Tar - a module for Perl manipulation of .tar files
-Summary(cs.UTF-8):   Archive::Tar - modul pro zpracování souborů .tar v Perlu
-Summary(da.UTF-8):   Archive::Tar - et modul for Perlhåndtering af .tar-filer
-Summary(de.UTF-8):   Archive::Tar - ein Modul für das Bearbeiten von .tar-Dateien durch Perl
-Summary(es.UTF-8):   Archive::Tar - módulo para manipulaciones de Perl de los ficheros tar
-Summary(fr.UTF-8):   Archive::Tar - module pour la manipulation Perl des fichiers .tar
-Summary(it.UTF-8):   Archive::Tar - modulo per la gestione dei file .tar con Perl
-Summary(ja.UTF-8):   Archive::Tar tarファイルのPerl操作の為のモジュールです。
-Summary(ko.UTF-8):   Archive::Tar .tar 파일을 조작하는 Perl 모듈
-Summary(pl.UTF-8):   Archive::Tar - moduł Perla do manipulacji plikami .tar
-Summary(pt.UTF-8):   Archive::Tar - um módulo para a manipulação em Perl dos ficheiros .tar
-Summary(pt_BR.UTF-8):   Archive::Tar - um módulo para a manipulação em Perl dos ficheiros .tar
-Summary(sv.UTF-8):   Archive::Tar - en modul för Perlhantering av .tar-filer
-Summary(tr.UTF-8):   Archive::Tar - .tar dosyaları için bir Perl modülü
-Summary(zh_CN.UTF-8):   Archive::Tar 对 .tar 文件进行 Perl 操作的模块。
-Summary(zh_TW.UTF-8):   Archive::Tar 用於 Perl 處理 .tar 檔案的一個模組。
+Summary(cs.UTF-8):	Archive::Tar - modul pro zpracování souborů .tar v Perlu
+Summary(da.UTF-8):	Archive::Tar - et modul for Perlhåndtering af .tar-filer
+Summary(de.UTF-8):	Archive::Tar - ein Modul für das Bearbeiten von .tar-Dateien durch Perl
+Summary(es.UTF-8):	Archive::Tar - módulo para manipulaciones de Perl de los ficheros tar
+Summary(fr.UTF-8):	Archive::Tar - module pour la manipulation Perl des fichiers .tar
+Summary(it.UTF-8):	Archive::Tar - modulo per la gestione dei file .tar con Perl
+Summary(ja.UTF-8):	Archive::Tar tarファイルのPerl操作の為のモジュールです。
+Summary(ko.UTF-8):	Archive::Tar .tar 파일을 조작하는 Perl 모듈
+Summary(pl.UTF-8):	Archive::Tar - moduł Perla do manipulacji plikami .tar
+Summary(pt.UTF-8):	Archive::Tar - um módulo para a manipulação em Perl dos ficheiros .tar
+Summary(pt_BR.UTF-8):	Archive::Tar - um módulo para a manipulação em Perl dos ficheiros .tar
+Summary(sv.UTF-8):	Archive::Tar - en modul för Perlhantering av .tar-filer
+Summary(tr.UTF-8):	Archive::Tar - .tar dosyaları için bir Perl modülü
+Summary(zh_CN.UTF-8):	Archive::Tar 对 .tar 文件进行 Perl 操作的模块。
+Summary(zh_TW.UTF-8):	Archive::Tar 用於 Perl 處理 .tar 檔案的一個模組。
 Name:		perl-Archive-Tar
 Version:	1.30
 Release:	1
