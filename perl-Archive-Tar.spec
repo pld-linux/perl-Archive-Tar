@@ -33,10 +33,10 @@ URL:		http://search.cpan.org/dist/Archive-Tar/
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.82
 BuildRequires:	perl-IO-Zlib >= 1.01
+BuildRequires:	perl-Package-Constants
 BuildRequires:	perl-Test-Harness >= 2.26
 BuildRequires:	perl-Test-Pod
 BuildRequires:	perl-Test-Simple
-BuildRequires:	perl-Package-Constants
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
