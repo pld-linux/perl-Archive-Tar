@@ -22,13 +22,13 @@ Summary(tr):	Archive::Tar - .tar dosyalarý için bir Perl modülü
 Summary(zh_CN):	Archive::Tar ¶Ô .tar ÎÄ¼þ½øÐÐ Perl ²Ù×÷µÄÄ£¿é¡£
 Summary(zh_TW):	Archive::Tar ¥Î©ó Perl ³B²z .tar ÀÉ®×ªº¤@­Ó¼Ò²Õ¡C
 Name:		perl-Archive-Tar
-Version:	1.24
-Release:	2
+Version:	1.40
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	25397b47793b4271a956071f99f5dc8b
+# Source0-md5:	df0322a37c5282a12da636c6f48d25e4
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.82
 BuildRequires:	perl-IO-Zlib
