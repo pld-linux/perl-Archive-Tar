@@ -173,6 +173,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_bindir}/ptar
+%attr(755,root,root) %{_bindir}/ptardiff
 %{perl_vendorlib}/Archive/Tar.pm
 %{perl_vendorlib}/Archive/Tar
+%{_mandir}/man1/*
 %{_mandir}/man3/*
