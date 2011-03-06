@@ -22,16 +22,17 @@ Summary(tr.UTF-8):	Archive::Tar - .tar dosyaları için bir Perl modülü
 Summary(zh_CN.UTF-8):	Archive::Tar 对 .tar 文件进行 Perl 操作的模块。
 Summary(zh_TW.UTF-8):	Archive::Tar 用於 Perl 處理 .tar 檔案的一個模組。
 Name:		perl-Archive-Tar
-Version:	1.54
+Version:	1.76
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Archive/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	093c6473c315119556919bd85de0bcb7
+Source0:	http://www.cpan.org/modules/by-authors/id/B/BI/BINGOS/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	4f726e610610c788a3cdd61083f9427f
 URL:		http://search.cpan.org/dist/Archive-Tar/
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.82
+BuildRequires:	perl-IO-Compress >= 2.015
 BuildRequires:	perl-IO-Zlib >= 1.01
 BuildRequires:	perl-Package-Constants
 BuildRequires:	perl-Test-Harness >= 2.26
@@ -42,6 +43,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-IO-Zlib >= 1.01
 Requires:	perl-Text-Diff
+Suggests:	perl-IO-Compress
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -176,8 +178,12 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES README
-%attr(755,root,root) %{_bindir}/ptar*
+%attr(755,root,root) %{_bindir}/ptar
+%attr(755,root,root) %{_bindir}/ptardiff
+%attr(755,root,root) %{_bindir}/ptargrep
 %{perl_vendorlib}/Archive/Tar.pm
 %{perl_vendorlib}/Archive/Tar
-%{_mandir}/man1/ptar*
-%{_mandir}/man3/*
+%{_mandir}/man1/ptar.1p*
+%{_mandir}/man1/ptardiff.1p*
+%{_mandir}/man1/ptargrep.1p*
+%{_mandir}/man3/Archive::Tar*.3pm*
