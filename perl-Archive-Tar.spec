@@ -21,13 +21,13 @@ Summary(tr.UTF-8):	Archive::Tar - .tar dosyaları için bir Perl modülü
 Summary(zh_CN.UTF-8):	Archive::Tar 对 .tar 文件进行 Perl 操作的模块。
 Summary(zh_TW.UTF-8):	Archive::Tar 用於 Perl 處理 .tar 檔案的一個模組。
 Name:		perl-Archive-Tar
-Version:	2.32
+Version:	2.40
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Archive/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	57eacf5d2da402fe50e493cddc730a44
+# Source0-md5:	94de21ff8bf290a7b90b45d0964823c9
 URL:		http://search.cpan.org/dist/Archive-Tar/
 %if %{with tests}
 BuildRequires:	perl-IO-Compress >= 2.015
