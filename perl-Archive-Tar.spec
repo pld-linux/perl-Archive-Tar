@@ -28,7 +28,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Archive/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	94de21ff8bf290a7b90b45d0964823c9
-URL:		http://search.cpan.org/dist/Archive-Tar/
+URL:		https://metacpan.org/dist/Archive-Tar
 %if %{with tests}
 BuildRequires:	perl-IO-Compress >= 2.015
 BuildRequires:	perl-IO-Zlib >= 1.01
@@ -36,9 +36,11 @@ BuildRequires:	perl-PathTools >= 0.82
 BuildRequires:	perl-Test-Harness >= 2.26
 BuildRequires:	perl-Test-Pod
 BuildRequires:	perl-Test-Simple
+BuildRequires:	perl-Text-Diff
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Requires:	perl-IO-Zlib >= 1.01
 Requires:	perl-Text-Diff
 Suggests:	perl-IO-Compress
